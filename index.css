@@ -15,6 +15,7 @@ body {
   z-index: 3;
 }
 .m1 {
+  margin-top: 34vh;
   color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 3.5rem;
