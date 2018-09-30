@@ -1,0 +1,133 @@
+body {
+  margin: 0%;
+  background: url("https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.control {
+  height: auto;
+}
+.control nav {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0%;
+  background: rgba(0, 0, 0, 0.9);
+
+  border-bottom: 1px solid coral;
+}
+nav header li {
+  list-style: none;
+  float: left;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  display: inline-block;
+  padding-bottom: 7px;
+}
+.current > a {
+  color: rgb(0, 118, 139);
+}
+li a:hover {
+  transition: all 0.7s;
+  color: darkcyan;
+}
+.user h2 {
+  margin: 0%;
+  font-weight: 400;
+  font-size: 2.3rem;
+  text-transform: capitalize;
+  color: dodgerblue;
+}
+.user span {
+  color: gold;
+}
+.content {
+  margin-top: 25vh;
+  text-align: center;
+  line-height: 2;
+  padding: 3rem;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.mail label {
+  color: firebrick;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  border-bottom: 5px double coral;
+}
+.mail sup {
+  color: crimson;
+  font-size: 1em;
+}
+.mail h3 {
+  color: deeppink;
+  font-size: 1.9rem;
+  margin: 0%;
+}
+i {
+  color: white;
+  transition: all 0.5s;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+i:hover {
+  color: coral;
+}
+@media (max-width: 605px) {
+  .user h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: dodgerblue;
+  }
+  .user span {
+    color: gold;
+  }
+  .content {
+    margin-top: 20vh;
+  }
+
+  .mail label {
+    font-size: 1.4rem;
+  }
+  .mail sup {
+    font-size: 1.2em;
+  }
+  .mail h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 200px) and (max-width: 540px) {
+  .user h2 {
+    margin: 0%;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: dodgerblue;
+  }
+  .user span {
+    color: gold;
+  }
+  .mail label {
+    font-size: 1.2rem;
+  }
+  .mail sup {
+    font-size: 1em;
+  }
+  .mail h3 {
+    font-size: 1.2rem;
+  }
+}
