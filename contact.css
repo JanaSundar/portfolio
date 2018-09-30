@@ -5,7 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
- 
+  height: 70vh;
 }
 .control {
   height: auto;

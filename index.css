@@ -75,6 +75,7 @@ i:hover {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100vh;
   opacity: 0.9;
   visibility: hidden;
   z-index: 2;
@@ -185,6 +186,9 @@ i:hover {
     font-size: 1.2rem;
     text-transform: capitalize;
     color: ghostwhite;
+  }
+  .menu-list {
+    align-items: flex-start;
   }
   .m1 h2 {
     font-size: 1rem;
